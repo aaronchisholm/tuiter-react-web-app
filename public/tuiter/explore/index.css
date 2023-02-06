@@ -1,0 +1,89 @@
+
+.nav-menu-box {
+    float: left;
+}
+
+.center-text {
+    padding: 16px;
+    font-size: 15px;
+}
+
+.search-bar {
+    width: 80%;
+    margin: 30px;
+    padding: 8px 50px;
+    background-image: url("searchicon2.png");
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    color: white;
+}
+
+.highlighted-link {
+    color: rgb(29, 161, 242);
+    border-bottom: rgb(29, 161, 242);
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+.top-row-gear {
+    float:left;
+    width:10%;
+}
+
+.top-row-search {
+    float:left;
+    width:90%;
+}
+
+.gear-icon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 25px;
+}
+
+::placeholder {
+    color: darkgrey;
+}
+
+.bg-color-dark-grey {
+    background-color: dimgray;
+}
+
+.topic {
+    font-size: 13px;
+    float: bottom;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.headline {
+    font-size: medium;
+    float: bottom;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    margin-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.content-text {
+    float: left;
+    width: 80%;
+}
+
+.image-container {
+    float: right;
+    width: 20%
+}
+
+.author {
+    float: left;
+    font-weight: bold;
+}

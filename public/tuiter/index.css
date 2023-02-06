@@ -1,0 +1,29 @@
+.page-main-content {
+    width: 80%;
+    margin: auto;
+    border: 2px solid rgb(110, 118, 125);
+}
+
+.bg-color-black {
+    background-color: black;
+}
+
+.fg-color-white {
+    color: white;
+}
+
+.fg-color-grey {
+    color: rgb(110, 118, 125)
+}
+
+.grid-row {
+    clear: both;
+}
+
+.hr-style {
+    border: 2px solid rgb(110, 118, 125);
+}
+
+a:link {
+    text-decoration:none;
+}
