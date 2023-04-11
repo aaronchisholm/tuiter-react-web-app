@@ -5,3 +5,19 @@
     background-repeat: no-repeat;
     border-radius: 40px;
 }
+
+.main-img {
+    z-index: 0;
+}
+
+.text-over-img {
+    z-index: 1;
+    font-size: 2.2em;
+    margin-top: -50px;
+    color: white;
+}
+
+.article-text{
+    color: black;
+    font-weight: bold;
+}
