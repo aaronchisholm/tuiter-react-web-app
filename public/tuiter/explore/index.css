@@ -1,9 +1,7 @@
-.search-bar {
-    padding: 8px 50px;
-    background-image: url("searchicon2.png");
-    background-position: 4px 4px;
-    background-repeat: no-repeat;
-    border-radius: 40px;
+.search-icon {
+    color: darkgrey;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 .main-img {
@@ -18,6 +16,31 @@
 }
 
 .article-text{
-    color: black;
     font-weight: bold;
+    color: white;
+}
+
+.profile-image {
+    width: 35px;
+    height: 35px;
+}
+
+.width-150 {
+    width: 150px;
+}
+
+.post-text {
+    font-size: 12px;
+}
+
+.account-name {
+    font-size: 14px;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.rounded {
+    border-radius: 100%;
 }
