@@ -4,6 +4,7 @@ import HelloWorld from './labs/a6/hello-world';
 import Tuiter from './tuiter';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
+import Assignment7 from './labs/a7';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
             element={<HelloWorld />} />
           <Route path="/tuiter"
             element={<Tuiter />} />
+            <Route path="/a7"
+            element={<Assignment7/>}/>
         </Routes>
       </div>
     </BrowserRouter>
